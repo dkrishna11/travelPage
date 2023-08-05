@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    height: 80px;
+    background-color: #F05A22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleLogo h2{
+    color: white;
+    padding: 15px;
+}
+
+.navBar-path{
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.navBar-path .icon{
+    font-size: 25px;
+    padding:10px ;
+}
+.active {
+    color: #F05A22;
+}
+
+/* *************************Home Styele************* */
+
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box-item{
+    width: 520px;
+    height: 451px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.box-item img{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+
