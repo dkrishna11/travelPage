@@ -6,10 +6,12 @@ import { Link } from "react-router-dom";
 import { IoChevronForwardOutline } from "react-icons/io5";
 
 const Home = () => {
-    let [search, setSearch]=useState("")
+    
+  let [search, setSearch] = useState("");
   const { loading, data, message } = useSelector((state) => state);
   console.log(loading, data, message);
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
@@ -18,7 +20,12 @@ const Home = () => {
     <div>
       <div className="search">
         <h1>Social Media For Travellers</h1>
-        <input type="search" placeholder="Search here....." value={search} onChange={(e)=>setSearch(e.target.value)}/>
+        <input
+          type="search"
+          placeholder="Search here....."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
       </div>
       <div className="box">
         {loading ? (
