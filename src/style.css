@@ -14,10 +14,12 @@
 .titleLogo h2{
     color: white;
     padding: 15px;
+    left: 15px;
+    margin-left: 30px;
 }
 
 .navBar-path{
-    width: 200px;
+    width: 250px;
     height: 60px;
     background-color: white;
     border-radius: 15px;
@@ -34,28 +36,172 @@
 
 /* *************************Home Styele************* */
 
+.search {
+    margin: 50px;
+}
 
+.search h1{
+    font-size: 50px;
+
+}
+
+.search input{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.search input:focus{
+    outline: none;
+}
+.loading{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    font-size: 40px;
+    color: #F05A22;
+}
 .box{
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 17px;
 }
 
 .box-item{
-    width: 520px;
-    height: 451px;
+    width: 420px;
+    height: 400px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 25px;
     padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .box-item img{
     padding: 10px;
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     border-radius: 25px;
+}
+
+.box-content-para{
+    display: flex;
+}
+
+.box-content-para p{
+    width: 350px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.readMore{
+    margin-left: 3px;
+    text-decoration: none;
+    color: #F05A22;
+}
+
+.rightArrow{
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #F05A22;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* ************** displayPage ************** */
+.backToHome{
+    margin: 30px;
+    position: relative;
+}
+
+.displayPages{
+    margin: 30px;
+}
+
+.backToHome .arrow{
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    border-radius: 50%;   
+    color: #F05A22;
+}
+
+.backToHome h1{
+    display: inline-block;
+    position: absolute;
+    top:4px;
+    margin-left: 15px;
+    font-size: 50px;
+}
+.user-details{
+    display: flex;
+    gap: 50px;
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.image-data{
+    width: 380px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 15px;
+    padding: 5px;
+}
+
+.image-data h2{
+    color: white;
+}
+
+.image-data .image-data-icon{
+    width: 50px;
+    height: 30px;
+    color: white;
+}
+
+.useData button{
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.post-user{
+    margin-top: 15px;
+    width: 600px;
+    height: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.post-user h1, .post-user p{
+    padding: 5px;
+}
+
+.post-user p{
+    font-size: 18px;
+}
+
+.morePost{
+    margin-top: 30px;
+}
+
+.morePost:first-child{
+    font-size: 50px;
 }
 
 

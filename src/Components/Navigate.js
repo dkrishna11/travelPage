@@ -10,9 +10,9 @@ const Navigate = () => {
       </div>
       <div className="navBar-path">
         <NavLink to="/"><IoHome className="icon"/></NavLink>
-        <NavLink to="/"><IoNotifications className="icon"/></NavLink>
+        <NavLink to="/i"><IoNotifications className="icon"/></NavLink>
         <NavLink to="/item"><IoBookmark className="icon bk"/></NavLink>
-        <NavLink to="/item"><IoPerson className="icon"/></NavLink>
+        <NavLink to="/i0"><IoPerson className="icon"/></NavLink>
       </div>
       <div></div>
     </div>
